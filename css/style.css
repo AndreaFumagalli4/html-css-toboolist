@@ -87,6 +87,7 @@ ul.list span.color-shape{
     font-size: .6rem;
     padding: .5rem;
     border-radius: 1rem;
+    margin: .3rem;
 }
 
 .editorial{
@@ -99,4 +100,8 @@ ul.list span.color-shape{
 
 .recruiting{
     background-color: lightgreen;
+}
+
+.mobile{
+    background-color: orange;
 }
