@@ -32,6 +32,7 @@ header h1{
 .main-container{
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 2rem;
 }
 
 section#button button{
@@ -54,7 +55,8 @@ section#button #add-section{
 }
 
 .margin{
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
+    margin: 2rem 4rem;
 }
 
 .list{
@@ -99,9 +101,17 @@ ul.list span.color-shape{
 }
 
 .recruiting{
-    background-color: lightgreen;
+    background-color: #0ba674;
 }
 
 .mobile{
     background-color: orange;
+}
+
+.website{
+    background-color: magenta;
+}
+
+.sales{
+    background-color: #ab9c23;
 }
