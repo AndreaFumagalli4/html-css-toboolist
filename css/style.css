@@ -32,7 +32,6 @@ header h1{
 #main-container{
     width: 80%;
     margin: 0 auto;
-    padding-bottom: 2rem;
 }
 
 section#button button{
@@ -56,6 +55,7 @@ section#button #add-section{
 
 main#main-container section.margin{
     margin: 2rem 4rem;
+    padding-bottom: .8rem;
 }
 
 section.margin ul.list{
