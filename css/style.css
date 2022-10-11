@@ -29,7 +29,7 @@ header h1{
     background-color: white;
 }
 
-.main-container{
+#main-container{
     width: 80%;
     margin: 0 auto;
     padding-bottom: 2rem;
@@ -54,12 +54,11 @@ section#button #add-section{
     border-radius: .5rem;
 }
 
-.margin{
-    /* margin-left: 4rem; */
+main#main-container section.margin{
     margin: 2rem 4rem;
 }
 
-.list{
+section.margin ul.list{
     list-style-type: none;
 }
 
@@ -74,12 +73,12 @@ ul.list span.entity{
     padding: .1rem .35rem;
 }
 
-.check{
+ul.list span.check{
     color: green;
     border-color: green;
 }
 
-.none{
+ul.list span.none{
     color: red;
     border-color: red;
 }
@@ -92,26 +91,26 @@ ul.list span.color-shape{
     margin: .3rem;
 }
 
-.editorial{
+ul.list span.editorial{
     background-color: #45ABE9;
 }
 
-.q1-goals{
+ul.list span.q1-goals{
     background-color: violet;
 }
 
-.recruiting{
+ul.list span.recruiting{
     background-color: #0ba674;
 }
 
-.mobile{
+ul.list span.mobile{
     background-color: orange;
 }
 
-.website{
+ul.list span.website{
     background-color: magenta;
 }
 
-.sales{
+ul.list span.sales{
     background-color: #ab9c23;
 }
