@@ -5,8 +5,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #F5F8F9;
+}
+
 header{
-    margin-top: 1rem;;
+    padding-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 header img{
@@ -20,3 +25,78 @@ header h1{
     font-size: 3rem;
 }
 
+.background-color-box{
+    background-color: white;
+}
+
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+section#button button{
+    padding: .3rem;
+}
+
+section#button #add-task{
+    margin: 1.5rem .3rem 1.5rem 4rem;
+    color: white;
+    background-color: #46ADF1;
+    border-color: #46ADF1;
+    border-radius: .5rem;
+}
+
+section#button #add-section{
+    color: lightgrey;
+    background-color: white;
+    border-color: white;
+    border-radius: .5rem;
+}
+
+.margin{
+    margin-left: 4rem;
+}
+
+.list{
+    list-style-type: none;
+}
+
+ul.list li{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul.list span.entity{
+    border: .2rem solid;
+    border-radius: 1.5rem 1.5rem;
+    padding: .1rem .35rem;
+}
+
+.check{
+    color: green;
+    border-color: green;
+}
+
+.none{
+    color: red;
+    border-color: red;
+}
+
+ul.list span.color-shape{
+    color: white;
+    font-size: .6rem;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.editorial{
+    background-color: #45ABE9;
+}
+
+.q1-goals{
+    background-color: violet;
+}
+
+.recruiting{
+    background-color: lightgreen;
+}
