@@ -7,6 +7,7 @@
 
 body{
     background-color: #F5F8F9;
+    font-family: 'Lato', sans-serif;
 }
 
 header{
@@ -37,6 +38,7 @@ header h1{
 
 section#button button{
     padding: .3rem;
+    border: none;
 }
 
 section#button #add-task{
@@ -50,8 +52,13 @@ section#button #add-task{
 section#button #add-section{
     color: lightgrey;
     background-color: white;
-    border-color: white;
+    border: 1px solid lightgrey;
     border-radius: .5rem;
+}
+
+div.divider{
+    height: .2rem;
+    background-color: #f5f8f9;
 }
 
 main#main-container section.margin{
