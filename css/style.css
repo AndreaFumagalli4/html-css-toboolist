@@ -104,21 +104,21 @@ ul.list span.editorial{
 }
 
 ul.list span.q1-goals{
-    background-color: violet;
+    background-color: #9c72e4;
 }
 
 ul.list span.recruiting{
-    background-color: #0ba674;
+    background-color: #64c0a9;
 }
 
 ul.list span.mobile{
-    background-color: orange;
+    background-color: #f29e33;
 }
 
 ul.list span.website{
-    background-color: magenta;
+    background-color: #d863a1;
 }
 
 ul.list span.sales{
-    background-color: #ab9c23;
+    background-color: #b0c926;
 }
